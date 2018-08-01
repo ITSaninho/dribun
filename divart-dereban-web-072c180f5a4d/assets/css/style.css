@@ -1,0 +1,20 @@
+[ng-cloak] {
+	display: none;
+}
+
+html {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list-group:hover {
+  cursor: pointer;
+}
+
+.list-body {
+  max-height: 285px;
+  overflow-y: auto;
+}

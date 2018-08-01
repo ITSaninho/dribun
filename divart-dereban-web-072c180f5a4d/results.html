@@ -1,0 +1,30 @@
+<div class="container" ng-controller="ResultsCtrl">	
+	<div class="row">
+		<div class="col-md-5 col-sm-12" ng-show="teams.length > 0  ">
+			<div class="card text-center" >
+				<div class="card-header bg-warning ">
+					{{ langs.get("Teams") }}
+				</div>
+				<div class="card-body results">
+		      		<ul class="list-group" ng-repeat="team in teams">
+		      			{{ langs.get("Team") + ' ' +  ($index + 1) }}:
+		      			<li class="list-group-item " ng-repeat="player in team">{{ player }}</li>
+			      	</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-5 col-sm-12" ng-show="leaders.length > 0">
+			<div class="card text-center">
+				<div class="card-header bg-warning">
+					{{ langs.get("Leaders") }}:
+				</div>
+				<div class="card-body">
+					<ul class="list-group">
+			  			<li class="list-group-item" ng-repeat="leader in leaders">{{ leader }}</li>
+			      	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	

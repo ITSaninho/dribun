@@ -1,0 +1,25 @@
+{
+	"Select player and press button": "Вибери гравців і натисни кнопку",
+	"Fast Game": "Швидка Гра", 
+	"Password": "Пароль",
+	"Players Name": "Ім'я гравця",
+	"Registration": "Реєстрація",
+	"Email": "Імейл",
+	"Sign Up": "Зареєструватися",
+	"Sign In": "Увійти",
+	"Authorization": "Авторизація",
+	"Teams size": "Розмір команди",
+	"Teams": "Команди",
+	"Team": "Команда",
+	"Single": "Одиночна",
+	"Shuffle": "Перемішати",
+	"Leaders": "Лідери",
+	"Number of Leaders": "Кількість Лідерів",
+	"Home": "Головна",
+	"Enter name": "Введіть ім'я",
+	"Choosed players": "Вибрані гравці",
+	"Add player": "Додати гравця",
+	"Count in team": "Гравців в команді",
+	"Check your email to activate your account": "Перевірте свою пошту для активації вашого аккаунту"
+
+}
